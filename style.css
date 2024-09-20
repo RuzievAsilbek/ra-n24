@@ -13,4 +13,127 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+  background-color: #fff;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.button-primary {
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+  background-color: #0f03fd;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
+
+/* CONTAINER */
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* SITE-HEADER */
+.site-header {
+}
+
+/* SITE-HEADER-TOP */
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+}
+
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header-img-logo {
+  display: flex;
+  padding: 8px 6px;
+  border-radius: 7px;
+  margin-right: 35px;
+  background-color: #fff;
+}
+
+.site-header-img-logo:hover {
+  opacity: 0.8;
+}
+
+.site-header-img-logo:active {
+  opacity: 0.6;
+}
+
+
+/* CURRENCY-RATES */
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  list-style: none;
+}
+
+.currency-rates-items:not(:last-child) {
+  margin-right: 25px;
+}
+
+.currency-rates-type {
+  color: #2959ce;
+}
+
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #dce6ff;
+}
+
+.link-toggle-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+.toggle-link-active {
+  background-color: #fff;
+  color: #000;
 }
