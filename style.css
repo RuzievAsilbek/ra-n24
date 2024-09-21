@@ -217,3 +217,8 @@ margin-right: 35px;
 .site-header-banner-link {
   display: flex;
 }
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
