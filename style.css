@@ -25,6 +25,14 @@ body {
   height: auto;
 }
 
+/* OUTLINE STYLE */
+*:focus {
+  outline: 2px dashed #0f03fd;
+  outline-offset: 3px;
+}
+
+
+/* BUTTON */
 .button {
   display: inline-block;
   padding: 13px 20px;
@@ -114,6 +122,24 @@ body {
 .currency-rates-type {
   color: #2959ce;
 }
+
+/* GLOBAL-SEARCH-FORM */
+
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  font-size: 14px;
+  line-height: normal;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  border: none;
+  border-radius: 60px;
+}
+
+/* LANG-TOGGLE */
 
 .lang-toggle {
   display: flex;
