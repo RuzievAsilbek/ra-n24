@@ -60,6 +60,12 @@ body {
   opacity: 0.6;
 }
 
+.button-block {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+}
+
 .button-orange {
   background-color: #f78b3b;
   color: #fff;
@@ -230,6 +236,10 @@ margin-right: 35px;
 
 
 /* NEWS-GRID */
+.global-news {
+  width: 797px;
+}
+
 .news-grid {
   display: flex;
   flex-wrap: wrap;
@@ -319,4 +329,98 @@ margin-right: 35px;
   line-height: 26px;
   font-weight: 500;
   color: #000;
+}
+
+
+/* GLOBAL-NEWS */
+.global-news-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+  font-weight: 500;
+}
+
+.news-list {
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+.news-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+/* ARTICLE-CARD-HORIZONTAL */
+.article-card-horizontal {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.article-card-horizontal-img {
+  width: 210px;
+  height: 165px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.article-card-horizontal-content {
+  flex-grow: 1;
+}
+.article-card-horizontal-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.article-card-horizontal-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.article-card-horizontal-link:hover {
+color: #0f03fd;
+}
+
+.article-card-horizontal-link:active {
+  opacity: 0.6;
+  }
+
+.article-card-horizontal-text {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+  font-weight: 400;
+}
+.article-card-horizontal-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-horizontal-sourse-icon {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.article-card-horizontal-sourse-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+
+.news-list-more-button {
+  padding: 17px;
 }
