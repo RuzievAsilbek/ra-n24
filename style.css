@@ -151,6 +151,10 @@ body {
   padding-left: 40px;
   border: none;
   border-radius: 60px;
+  background-image: url(/img/new-list-img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px;
 }
 
 /* LANG-TOGGLE */
@@ -186,8 +190,11 @@ body {
   padding-bottom: 12px;
   border-bottom: 1px solid #d1d1d1;
   line-height: normal;
-  margin-bottom: 40px;
   font-weight: 600;
+}
+
+.sitenav:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 .sitenav-list {
@@ -321,6 +328,10 @@ margin-right: 35px;
   margin: 60px 75px;
   background-color: #ffd7ba;
   border-radius: 10px;
+  background-image: url(/img/new-list-img/notification-icon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .cotification-cta-text {
   font-size: 20px;
@@ -526,6 +537,10 @@ border-radius: 5px;
   object-fit: cover;
 }
 
+.sitebar-ad-link-img-tall {
+  height: 553px;
+}
+
 /* SITE-FOOTER */
 .site-footer {
   background-color: #7297ef;
@@ -593,6 +608,7 @@ object-fit: contain;
 
 .site-footer-link:hover {
   text-decoration: underline;
+  color: #0f03fd;
 }
 .site-footer-divider {
   height: 1px;
@@ -632,4 +648,125 @@ object-fit: contain;
   width: 25px;
   height: 25px;
   object-fit: contain;
+}
+
+/* FORM */
+
+.form-group-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group-wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-group-wrapper .form-group {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.form-field-textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+/* DEFINITIONS-CARD */
+.contact-page-definitions-card {
+}
+
+.definitions-card {
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 0;
+  margin-left: 10px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.definitions-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.definitions-card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-title {
+  font-weight: 500;
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.definitions-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+/* CONTACT */
+
+.contact-page {
+
+}
+.contact-page-heading {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+.contact-page-content {
+  display: flex;
+}
+
+.contact-page-form-submit {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.contact-page-form .button {
+  margin-left: 0;
+}
+
+.contact-page-info {
+  width: 494px;
+}
+
+
+/* CSS RETINA */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .notification-cta {
+    background-image: url(/img/new-list-img/notification-icon@2x.jpg);
+  }
+
 }
