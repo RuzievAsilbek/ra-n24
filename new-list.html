@@ -9,10 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-  <!-- STYLE HEADER -->
-  <!-- <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css"> -->
-  <link rel="stylesheet" href="style.mini.css">
+  STYLE HEADER
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="new-list.html">
+  <link rel="stylesheet" href="style.css">
 
   <title>Kategoriya24</title>
 </head>
@@ -97,7 +97,7 @@
           <!-- NEWS-LIST -->
           <div class="news-list">
             <div class="news-list-item article-card-horizontal">
-              <img class="article-card-horizontal-img" src="img/new-list-img/toshkent.jpg" alt="" width="210" height="165"     srcset="img/new-list-img/toshkent.jpg 1x, img/new-list-img/toshkent.jpg@2x.jpg 2x"
+              <img class="article-card-horizontal-img" src="img/new-list-img/toshkent.jpg" alt="" width="210" height="165" srcset="img/new-list-img/toshkent.jpg 1x, img/new-list-img/toshkent@2x.jpg 2x"
               />
               <div class="article-card-horizontal-content">
                 <h3 class="article-card-horizontal-heading">
@@ -133,7 +133,7 @@
             </div>
 
             <div class="news-list-item article-card-horizontal">
-              <img class="article-card-horizontal-img" src="img/new-list-img/apple.jpg" alt="" width="210" height="165"     srcset="img/new-list-img/apple.jpg 1x, img/new-list-img/apple.jpg@2x.jpg 2x"
+              <img class="article-card-horizontal-img" src="img/new-list-img/apple.jpg" alt="" width="210" height="165" srcset="img/new-list-img/apple.jpg 1x, img/new-list-img/apple@2x.jpg 2x"
               />
               <div class="article-card-horizontal-content">
                 <h3 class="article-card-horizontal-heading">
@@ -246,7 +246,7 @@
             </div>
 
             <div class="news-list-item article-card-horizontal">
-              <img class="article-card-horizontal-img" src="img/new-list-img/cinema.jpg" alt="" width="210" height="165"     srcset="img/new-list-img/cinema.jpg 1x, img/new-list-img/cinema@2x.jpg 2x"
+              <img class="article-card-horizontal-img" src="img/new-list-img/cinema.jpg" alt="" width="210" height="165" srcset="img/new-list-img/cinema.jpg 1x, img/new-list-img/cinema@2x.jpg 2x"
               />
               <div class="article-card-horizontal-content">
                 <h3 class="article-card-horizontal-heading">
@@ -441,5 +441,25 @@
 
   </div>
 </footer>
+
+
+<!-- MODALS -->
+<section class="modal modal-open" id="notification-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <h2 class="visually-hidden">Уведомления</h2>
+      <button class="modal-close js-modal-close" type="button" aria-label="закрытъ модалъное окно">
+        <img class="modal-close-icon" src="img/icon-close.svg" alt="Close" height="24" width="24">
+      </button>
+      <p class="modal-lead">Хотите быть в курсе свежих новостей? <br>Включите уведомления!</p>
+      <div class="modal-action">
+        <button class="button button-orange button-large" type="button">Включит</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="main.js"></script>
 </body>
 </html>
